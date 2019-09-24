@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display:400,900&display=swap');
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Big Shoulders Display', cursive;
+    background-color: #edeff0;
+}
+
+header{
+    background-color: #fff;
+}
+
+header a{
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+header #logo{
+    font-size: 1.8em;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    transition: 0.7s;
+}
+
+header nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* header */
+
+#intro{
+    min-height: 80vh;
+    text-align: center;
+    background-image: url(../img/garden.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro-text{
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
