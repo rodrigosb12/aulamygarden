@@ -39,6 +39,10 @@ header nav ul li a:hover{
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+header li.active{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 /* header */
 
 #intro{
